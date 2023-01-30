@@ -10,6 +10,7 @@ wget http://deb.debian.org/debian/pool/main/n/ndctl/ndctl_$VERSION-$REVISION.deb
 tar xf ndctl_$VERSION-$REVISION.debian.tar.xz
 rm ndctl_$VERSION-$REVISION.debian.tar.xz
 
+mkdir debian/patches
 cp msft.patch debian/patches
 echo 'msft.patch' >> debian/patches/series
 
