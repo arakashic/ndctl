@@ -1,6 +1,6 @@
 #!/bin/bash -ex
-VERSION=74
-REVISION=2
+VERSION=75
+REVISION=1
 
 wget http://deb.debian.org/debian/pool/main/n/ndctl/ndctl_$VERSION.orig.tar.gz
 tar xf ndctl_$VERSION.orig.tar.gz --strip 1
